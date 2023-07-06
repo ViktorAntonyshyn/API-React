@@ -14,6 +14,10 @@
     height: 290px;
     background-color: aqua;
 }
+.pokemon-card:hover {
+    transform: translateX(-10px);
+    box-shadow: 10px 25px 10px rgba(0, 0, 0, 0.5);
+  }
 
 .pokemon-image{
     width: 170px;
