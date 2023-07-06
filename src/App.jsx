@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Characters from './components/Characters'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,9 @@ function App() {
       <p className="read-the-docs">
         CARDS
       </p>
+     <div>
+      < Characters />
+     </div>
     </>
   )
 }
