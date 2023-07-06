@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import CharactersRM from './components/CharactersRM'
+import CharactersRMall from './components/CharactersRMall'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         CARDS
       </p>
      <div>
-      < CharactersRM />
+      < CharactersRMall />
      </div>
     </>
   )
