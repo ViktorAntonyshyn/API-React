@@ -1,20 +1,7 @@
-
-
-
 import { useState } from "react";
 import { useEffect } from "react";
 
-
-
-const Characters = () => {
-   
-   
-   
-   
-   
-   
-   
-   
+    const CharactersRM = () => {
     const [characters, setCharacters] = useState([])
 
     useEffect( () => {
@@ -27,8 +14,6 @@ const Characters = () => {
         setCharacters(data)
     })
 }, [])
-
-
 
 return (
     <div className="contenadot">
@@ -46,4 +31,4 @@ return (
 )
 }
 
-export default Characters
+export default CharactersRM

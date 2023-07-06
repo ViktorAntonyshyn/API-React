@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Characters from './components/Characters'
+import CharactersRM from './components/CharactersRM'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
 
@@ -12,7 +10,7 @@ function App() {
         CARDS
       </p>
      <div>
-      < Characters />
+      < CharactersRM />
      </div>
     </>
   )
