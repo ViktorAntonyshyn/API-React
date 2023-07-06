@@ -1,31 +1,36 @@
 import { useState, useEffect } from "react";
 
-const CharactersRMall = () => {
+const CharactersRMTodos = () => {
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
-    const fetchCharacters = async () => {
-      const charactersPerPage = 20; // cuantifi personajes en una página
-      const targetCharacterCount = 200; // cuantifi personajes que quieres
-      const totalPages = Math.ceil(targetCharacterCount / charactersPerPage);
+    const fetchData = async () => {
       let allCharacters = [];
+      let nextPage = 1;
 
-      for (let page = 1; page <= totalPages; page++) {
-        const apiUrl = `https://rickandmortyapi.com/api/character?page=${page}`;
+      do {
+        const apiUrl = `https://rickandmortyapi.com/api/character?page=${nextPage}`;
         const response = await fetch(apiUrl);
         const data = await response.json();
         allCharacters = allCharacters.concat(data.results);
-      }
+        nextPage = data.info.next ? extractPageNumber(data.info.next) : null;
+      } while (nextPage);
 
-      setCharacters(allCharacters.slice(0, targetCharacterCount));
+      setCharacters(allCharacters);
     };
 
-    fetchCharacters();
+    fetchData();
   }, []);
+
+  const extractPageNumber = (url) => {
+    const regex = /page=(\d+)/;
+    const match = url.match(regex);
+    return match ? parseInt(match[1]) : null;
+  };
 
   return (
     <div className="contenadot">
-      {characters.map(character => (
+      {characters.map((character) => (
         <div className="cards" key={character.id}>
           <img className="imagen" src={character.image} alt="Personaje" />
           <p>{character.name}</p>
@@ -37,4 +42,4 @@ const CharactersRMall = () => {
   );
 };
 
-export default CharactersRMall;
+export default CharactersRMTodos;

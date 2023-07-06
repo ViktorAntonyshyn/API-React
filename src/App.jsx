@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import CharactersRM from './components/CharactersRM'
-import CharactersRMall from './components/CharactersRMall'
+import CharactersRMTodos from './components/CharactersRMTodos'
+import CharactersRM200 from './components/CharactersRM200'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         CARDS
       </p>
      <div>
-      < CharactersRMall />
+      < CharactersRM200 />
      </div>
     </>
   )
