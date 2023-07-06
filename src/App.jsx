@@ -10,7 +10,7 @@ function App() {
     <>
 
       <p className="read-the-docs">
-        CARDS
+        POKEMON CARDS
       </p>
      <div>
       < PokemonCards />

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './PokemonCards100.css'
 
 const PokemonCards100 = () => {
   const [pokemonList, setPokemonList] = useState([]);
@@ -28,13 +29,13 @@ const PokemonCards100 = () => {
     <div className="pokemon-container">
       {pokemonList.map((pokemon) => (
         <div className="pokemon-card" key={pokemon.id}>
-          <img
-            className="pokemon-image"
-            src={pokemon.sprites.front_default}
-            alt={pokemon.name}
-          />
-          <p className="pokemon-name">Nombre: <br /> {pokemon.name}</p>
           <p className="size">ID: {pokemon.id}</p>
+          <img className="pokemon-image" src={pokemon.sprites.front_default} alt={pokemon.name} />
+          <div className="info">
+            <p className="pokemon-name">Nombre:&nbsp;<span>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</span></p> {/* Mayuscula primera letra */}
+            
+          </div>
+
         </div>
       ))}
     </div>
