@@ -3,6 +3,7 @@ import './App.css'
 import CharactersRM from './components/CharactersRM'
 import CharactersRMTodos from './components/CharactersRMTodos'
 import CharactersRM200 from './components/CharactersRM200'
+import PokemonCards from './components/PokemonCards100'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         CARDS
       </p>
      <div>
-      < CharactersRM200 />
+      < PokemonCards />
      </div>
     </>
   )
