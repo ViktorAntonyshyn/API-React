@@ -41,7 +41,7 @@ const PokemonCardsPopup = () => {
           className={`pokemon-card ${selectedPokemon === pokemon ? 'selected' : ''}`}
           key={pokemon.id}
           onClick={() => handleCardClick(pokemon)}
-          data-tooltip={`Nombre: ${pokemon.name} | ID: ${pokemon.id}`}
+          data-tooltip={`Me llaman ${pokemon.name.toUpperCase()} y me ID es "${pokemon.id}"`}
         >
           <p className="size">ID: {pokemon.id}</p>
           <img className="pokemon-image" src={pokemon.sprites.front_default} alt={pokemon.name} />
