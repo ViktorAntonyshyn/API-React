@@ -1,13 +1,22 @@
 import { useState } from 'react'
 import './App.css'
 import Head from './Components/Head'
+import CharactersRM from './components/CharactersRM'
+import CharactersRMTodos from './components/CharactersRMTodos'
+import CharactersRM200 from './components/CharactersRM200'
+import PokemonCards from './components/PokemonCards100'
+import PokemonCardsPopup from './components/PokemonCardsPopup'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      < Head/>
+     < Head/>
+      {/* <p className="read-the-docs">
+        POKEMON CARDS
+      </p> */}
+     <div>
+      < PokemonCardsPopup />
+     </div>
     </>
   )
 }
