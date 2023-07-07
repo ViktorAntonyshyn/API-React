@@ -1,4 +1,6 @@
-
+body {
+    margin-top: 12vh;
+}
 .pokemon-container{
     width: 100%;
     display: flex;
@@ -13,10 +15,11 @@
     width: 170px;
     height: 290px;
     background-color: aqua;
+    box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.4);
 }
 .pokemon-card:hover {
     transform: translateX(-10px);
-    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 25px 10px rgba(0, 0, 0, 0.6);
     border: solid rgb(97, 96, 96);
     background-color: rgb(107, 252, 252);
   }
