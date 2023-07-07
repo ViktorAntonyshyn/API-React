@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Head from './Components/Head'
 import CharactersRM from './components/CharactersRM'
 import CharactersRMTodos from './components/CharactersRMTodos'
 import CharactersRM200 from './components/CharactersRM200'
@@ -9,7 +10,7 @@ import PokemonCardsPopup from './components/PokemonCardsPopup'
 function App() {
   return (
     <>
-
+     < Head/>
       {/* <p className="read-the-docs">
         POKEMON CARDS
       </p> */}
