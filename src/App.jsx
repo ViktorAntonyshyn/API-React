@@ -10,9 +10,9 @@ function App() {
   return (
     <>
 
-      <p className="read-the-docs">
+      {/* <p className="read-the-docs">
         POKEMON CARDS
-      </p>
+      </p> */}
      <div>
       < PokemonCardsPopup />
      </div>
