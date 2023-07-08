@@ -10,7 +10,7 @@ const PokemonCardsPopup = () => {
   useEffect(() => {
     const fetchData = async () => {   // async - asyncrono funcione
       const limit = 200; // que qieres personajes
-      const apiUrl = `https://pokeapi.co/api/v2/pokemon?limit=${limit}`; //limit=${limit} - cortar lista
+      const apiUrl = `https://pokeapi.co/api/v2/pokemon?limit=${limit}`; //?limit=${limit} - cortar lista
       const response = await fetch(apiUrl);  //await - espera cuando funcoina acaba (Promis-promesa-обіцянка)
       const data = await response.json();
       const pokemonUrls = data.results.map((pokemon) => pokemon.url);
