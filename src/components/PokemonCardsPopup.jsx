@@ -42,12 +42,12 @@ const PokemonCardsPopup = () => {
         <div className={`pokemon-card ${selectedPokemon === pokemon ? 'selected' : ''}`} //'selected' added className
           key={pokemon.id} //key
           onClick={() => handleCardClick(pokemon)}  // Click for push-up
-          data-tooltip={`Me llaman ${pokemon.name.toUpperCase()} y me ID es "${pokemon.id}"`} //Texto en push-up
+          data-tooltip={`Me llaman ${pokemon.name.toUpperCase()} y mi ID es "${pokemon.id}"`} //Texto en push-up
           > 
-          <p className="size">ID: {pokemon.id}</p>
+          <p className="id">ID: {pokemon.id}</p>
           <img className="pokemon-image" src={pokemon.sprites.front_default} alt={pokemon.name} />
           <div className="info">
-            <p className="pokemon-name">Nombre: <span>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</span></p>
+          <p className="pokemon-name">Nombre: <span>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</span></p>
           </div>
         </div>
       ))}
