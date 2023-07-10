@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import './CharacterCards.css'
+import './CharacterCardsHP.css'
 
 
-const CharacterCards = () => {
+const CharacterCardsHP = () => {
   const [characters, setCharacters] = useState([]);
 
   const fetchCharacters = async () => {
@@ -17,8 +17,8 @@ const CharacterCards = () => {
   };
 
   return (
-    <div>
-      <button onClick={fetchCharacters}>Load Characters</button>
+    <div className="containet-all">
+      <button className="button" onClick={fetchCharacters}>CARGANDO PERSONAJES</button>
     
         <div className="character-cards">{characters.map((character) => (
           <div className="card" key={character.name}
@@ -34,4 +34,4 @@ const CharacterCards = () => {
   );
 };
 
-export default CharacterCards;
+export default CharacterCardsHP;

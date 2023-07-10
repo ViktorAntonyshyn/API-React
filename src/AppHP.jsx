@@ -1,13 +1,13 @@
 import React from "react";
-import CharacterCards from "./Components/CharacterCards";
 import HeadHP from "./Components/HeadHP";
 import FooterHP from "./Components/FooterHP";
+import CharacterCardsHP from "./Components/CharacterCardsHP";
 
 const AppHP = () => {
   return (
     <div>
       <HeadHP />
-      <CharacterCards />
+      <CharacterCardsHP />
       <FooterHP />
     </div>
   );
