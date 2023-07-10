@@ -8,27 +8,27 @@ body {
     background-color: white;
 }
 
-/* .character-container{
+.character-cards{
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px; 
-} */
+}
 
-.character-card{
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: solid 2px;
     border-radius: 15px;
-    width: 170px;
-    height: 400px;
+    width: 230px;
+    height: 370px;
     background-color: aqua;
     box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.4);
 }
-.pokemon-card:hover {
+.card:hover {
     transform: translateX(-10px);
     box-shadow: 10px 25px 10px rgba(0, 0, 0, 0.6);
     border: solid rgb(97, 96, 96);
@@ -36,14 +36,12 @@ body {
   }
 
 
-.id {
+.character-info {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
-.info, .id{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 span {
     color: brown;
 }

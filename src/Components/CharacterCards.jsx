@@ -19,17 +19,17 @@ const CharacterCards = () => {
   return (
     <div>
       <button onClick={fetchCharacters}>Load Characters</button>
-    <div className="character-container">
+    
         <div className="character-cards">{characters.map((character) => (
-          <div className="character-card" key={character.name}
+          <div className="card" key={character.name}
             onClick={() => handleCardClick(character.name, character.gender)}>
-            <p>Gender: {character.gender}</p>
+            <p> <span>Gender:</span>  {character.gender}</p>
             <img className="character-image" src={character.image} alt={character.name}/>
             <p className="character-info">{character.name}</p>
           </div>
         ))}
       </div>
-    </div>
+    
     </div>
   );
 };
