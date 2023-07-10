@@ -4,7 +4,7 @@ const HeadHP = () => {
     return (
         <div className="head-container">
             <img className= "logoUp" src="src/Pics/logoHP.png" alt="logo" />
-            <h1>&nbsp;&nbsp; PERSONAJES</h1> 
+            <p className='head'>&nbsp;&nbsp; Harry Potter</p> 
         </div>
     )
 }
