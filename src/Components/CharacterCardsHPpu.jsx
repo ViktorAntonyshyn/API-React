@@ -23,7 +23,7 @@ const CharacterCardsHPpu = () => {
 
   return (
     <div className="containet-all">
-      <button className="button" onClick={fetchCharacters}>CARGANDO PERSONAJES</button>
+      <button className="button" onClick={fetchCharacters}>DESCARGAR PERSONAJES</button>
     
       <div className="character-cards">
         {characters.map((character) => (

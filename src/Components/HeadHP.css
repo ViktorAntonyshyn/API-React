@@ -1,4 +1,6 @@
 .head-container{
+    background-image: url(src/Pics/background_h.jpg);
+    background-size: 100%;
     width: 100%;
     height: 10vh;
     top: 0;
@@ -10,9 +12,13 @@
     justify-content: center;
     z-index: 100;
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(360deg, #a16c6c 18.68%, #686363 100%), #c93030;
+    /* background: linear-gradient(360deg, #a16c6c 18.68%, #686363 100%), #c93030; */
 }
 .logoUp {
     width: 80px;
     height: 50px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

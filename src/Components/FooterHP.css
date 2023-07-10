@@ -9,7 +9,8 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 -15px 10px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(360deg, #a16c6c 18.68%, #686363 100%), #c93030;
+    background-image: url(src/Pics/background_h.jpg);
+    background-size: 100%;
 }
 .logo {
     width: 190px;
