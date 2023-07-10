@@ -10,7 +10,7 @@
     justify-content: center;
     z-index: 100;
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);
-    background-color: aqua;
+    background: linear-gradient(360deg, #a16c6c 18.68%, #686363 100%), #c93030;
 }
 .logoUp {
     width: 80px;
