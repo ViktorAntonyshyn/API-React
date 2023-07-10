@@ -1,6 +1,6 @@
 # API-React
 
-- [API-React en el GIT HUB]([https://breakdance.github.io/breakdance/](https://github.com/ViktorAntonyshyn/API-React)https://github.com/ViktorAntonyshyn/API-React) - HTML
+- [API-React en el GIT HUB](https://github.com/ViktorAntonyshyn/API-React) - HTML
 
 | Plugin | README |
 | ------ | ------ |
@@ -11,4 +11,4 @@
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
-With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
+With [Handlebars templatesAPI-React en el GIT HUB](http://handlebarsjs.com/), you have full control over what you export.
