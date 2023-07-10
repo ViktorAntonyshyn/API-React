@@ -10,3 +10,5 @@
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
+With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
