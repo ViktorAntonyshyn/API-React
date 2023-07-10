@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import AppHP from './AppHP.jsx'
 import './index.css'
+import AppHPpu from './AppHPpu.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AppHP />
+    <AppHPpu />
   </React.StrictMode>,
 )
