@@ -3,7 +3,7 @@
 ## El proyecto fue creado por Viktor para una mejor comprensión de las tecnologías API y REACT
 
 El proyecto está disponible en GitHub [API-React](https://github.com/ViktorAntonyshyn/API-React)
-!!!Esta rama tiene otro proyecto con API Harry Potter!!! - [Harry Potter API](https://github.com/ViktorAntonyshyn/API-React/tree/feature/cards) 
+- [Harry Potter API](https://github.com/ViktorAntonyshyn/API-React/tree/feature/cards) !!!!!!Esta rama tiene otro proyecto con API Harry Potter!!!!!!
 
 En el desarrollo del proyecto se utilizaron tecnologías y herramientas:
 - [PokeAPI](https://pokeapi.co/) - Todos los datos de Pokémon que necesitarás.
