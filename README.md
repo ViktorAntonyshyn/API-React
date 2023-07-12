@@ -1,6 +1,6 @@
-# API-React
+## API-React
 
-## El proyecto fue creado por Viktor para una mejor comprensión de las tecnologías API y REACT
+### El proyecto fue creado por Viktor para una mejor comprensión de las tecnologías API y REACT
 
 ### El proyecto [Pokemon](https://github.com/ViktorAntonyshyn/API-React) está disponible en GitHub 
 ### !!!!!!Esta rama [cards](https://github.com/ViktorAntonyshyn/API-React/tree/feature/cards) tiene otro proyecto con API Harry Potter!!!!!!  
